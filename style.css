@@ -1,0 +1,102 @@
+/* Font style  */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;800&family=Rubik+Spray+Paint&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* header  */
+header {
+    background-color: red;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+header > a:last-child {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* navigational bar */
+.navbar {
+    position: sticky;
+    top: 4.7%;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px ;
+    transition: .5s;    
+}
+
+#search-bar {
+    margin-right: 50px;
+}
+
+
+/* Side bar */
+label {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button#btn:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+div#bar_bg {
+    border: solid 1px red;
+}
+
+/* Item section */
+.sale_price {
+    color: red;
+}
+
+.real_price {
+    text-decoration: line-through;
+}
+
+i.fa-heart {
+    color: red;
+    float: right;
+    margin: 10px;
+}
+
+.filterDiv {
+    float: left;
+    margin: 7px;
+    display: none;
+}
+
+.show {
+    display: block;
+  }
+
+#img_item {
+    width: 100%;
+}
+
+#img_item:hover {
+    width: 103%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
